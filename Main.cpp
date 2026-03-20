@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-
+// Get the nearest k elements using target as reference
 std::vector<int> GetKNearestElements(int k, int target, std::vector<int>& vec)
 {
 	auto it = std::lower_bound(vec.cbegin(), vec.cend(), target);
